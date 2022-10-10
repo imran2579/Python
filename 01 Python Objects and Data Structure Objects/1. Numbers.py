@@ -1,0 +1,30 @@
+
+print("=" * 80)
+print("\t\t\t | Objects and Data Structure Basics | \t\t")
+print("=" * 80)
+print("=" * 10)
+print("| Numbers |")
+print("=" * 10)
+a = 2
+b = 3
+d = 6
+print("The Addition of        " + str(a) + " and " + str(b) + " is ",a+b)
+print("The Subtract of        " + str(a) + " and " + str(b) + " is ",a-b)
+print("The Multiply of        " + str(a) + " and " + str(b) + " is ",a*b)
+print("The Division (True) of " + str(a) + " and " + str(b) + " is ",a/b)
+print("The Division (Floor)of " + str(a) + " and " + str(b) + " is ",a//b)
+print("The Remainder of       " + str(a) + " and " + str(b) + " is ",a%b)
+print("The Power of           " + str(a) + " to  " + str(b) + " is ",a**b)
+c = 0.5
+print("The Square Root of     " + str(a) + " is ",a**c)
+print("The Exponent of 2E2 is   ",2E2)
+input("Press Enter to Continue")
+print("\n")
+print("The Hexadecimal of 255 is",hex(255))
+print("The Binary of 2 is",bin(a))
+print("2 to the raise of power 3 is",pow(a,b))
+print("2 to the raise of power 3 and modulus 6 is",pow(a,b,d))
+print("The Absolute Value of -3.14 is",abs(-3.14))
+print("The Round value of round(3.14) is",round(3.14))
+print("The Round value of round(3.1415)by place of 2 is",round(3.1415,2))
+input("Press Enter to Continue")
